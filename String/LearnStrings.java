@@ -21,5 +21,11 @@ public class LearnStrings {
         System.out.println(new int[]{1,2,3,4,5}); // This does not print the array because println uses the toString method which does not work for objects like arrays, hashmaps, etc.
         System.out.println(Arrays.toString(new int[]{1,2,3,4,5}));//This toString function is the normal one it is from the Arrays class. An example of function overloading.
 
+        String experiment = "ab";
+        String add = "c";
+        for(int i = 0; i <= experiment.length(); i++){
+            System.out.println(experiment.substring(0, i) + add + experiment.substring(i));
+        }
     }
 }
+
