@@ -9,7 +9,7 @@ public class LearnRecursion {
 
     public static void number(int n) {
         if (n > 5)
-            return; // base condition. If we don't provide this condition then the stack keeps on getting filled and a time comes when the stack overflows (Stack overflow error).
+            return; // base condition. If we don't provide this condition then the Que keeps on getting filled and a time comes when the Que overflows (StackQueues.Stack overflow error).
         System.out.println(n);
         number(++n);
     }
